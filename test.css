@@ -1,0 +1,14 @@
+.blue {
+  color: blue;
+  font-size: 16px;
+}
+#red {
+  color: red;
+  font-size: 32px;
+}
+.blue.red {
+  color: green;
+}
+#red .blue {
+  color: pink;
+}

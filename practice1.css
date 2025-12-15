@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+body {
+  background-color: #f2d8bd;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  position: relative;
+  text-align: center;
+  padding: 30px 20px;
+}
+.header h1 {
+  font-family: "Amatic SC";
+  font-size: 60px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-decoration: underline 2px;
+}
+
+.header div span {
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 20px 20px 25px;
+}
+
+.left_image {
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 180px;
+  top: 30px;
+  left: 70px;
+}
+.right_image {
+  position: absolute;
+  z-index: 2;
+  width: 300px;
+  height: 180px;
+  top: 30px;
+  right: 70px;
+  justify-content: ;
+}
+h2 {
+  font-family: "Amatic SC";
+  font-size: 45px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.ingredients_tools {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 400px;
+  margin-top: 40px;
+}
+.ingredients {
+  margin-top: 40px;
+}
+
+.ingredients_tools ul {
+  list-style: circle;
+  font-size: 22px;
+  padding-left: 25px;
+}
+.ingredients_tools ul li {
+  margin-bottom: 8px;
+}
+
+.tools .list,
+.bowl {
+  width: 80px;
+  opacity: 0.85;
+}
+.tools .list {
+  margin-left: 80px;
+}
+.tools .bowl {
+  margin-left: 20px;
+}
+.tool_image {
+  margin-top: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 250px;
+}
+
+.tool_image img {
+  width: 80px;
+  opacity: 0.85;
+}
+.toolss {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 40px;
+}
+.direction {
+  position: relative;
+  padding: 90px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+.cookie {
+  position: absolute;
+  background-color: #f2d8bd;
+  width: 300px;
+  height: 100px;
+  z-index: 2;
+  right: 400px;
+  bottom: 0px;
+}

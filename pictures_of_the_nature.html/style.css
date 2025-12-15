@@ -1,0 +1,4 @@
+.photos {
+  display: flex;
+  gap: 10px; /* space between photos */
+}

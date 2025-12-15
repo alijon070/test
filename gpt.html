@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chocolate Chip Cookies</title>
+
+    <style>
+      /* ---------------- GLOBAL STYLE ---------------- */
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f2d8bd;
+        font-family: "Comic Sans MS", "Patrick Hand", sans-serif;
+        line-height: 1.6;
+        color: #2b2b2b;
+      }
+
+      /* ---------------- HEADER ---------------- */
+      .header {
+        text-align: center;
+        padding: 40px 0 10px 0;
+        position: relative;
+      }
+
+      .header img.cookie-left {
+        position: absolute;
+        left: 40px;
+        top: 10px;
+        width: 140px;
+      }
+
+      .header img.cookie-right {
+        position: absolute;
+        right: 40px;
+        top: 10px;
+        width: 140px;
+      }
+
+      .header h1 {
+        font-size: 60px;
+        margin: 0;
+        font-weight: bold;
+        letter-spacing: 3px;
+      }
+
+      .header-info {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        margin-top: 10px;
+        font-size: 18px;
+      }
+
+      /* ---------------- TWO MAIN SECTIONS ---------------- */
+      .main-section {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 120px;
+        margin-top: 40px;
+      }
+
+      /* Titles for Ingredients / Tools */
+      .main-section h2 {
+        font-size: 40px;
+        font-weight: bold;
+        border-bottom: 3px solid black;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+      }
+
+      /* Lists */
+      .main-section ul {
+        list-style: circle;
+        font-size: 22px;
+        padding-left: 25px;
+      }
+
+      .main-section ul li {
+        margin-bottom: 8px;
+      }
+
+      /* ---------------- TOOL IMAGES ---------------- */
+      .tool-images {
+        margin-top: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 250px;
+      }
+
+      .tool-images img {
+        width: 80px;
+        opacity: 0.85;
+      }
+
+      /* ---------------- DIRECTIONS ---------------- */
+      .directions {
+        max-width: 900px;
+        margin: 50px auto;
+        font-size: 22px;
+      }
+
+      .directions h2 {
+        font-size: 40px;
+        font-weight: bold;
+        border-bottom: 3px solid black;
+        width: fit-content;
+        padding-bottom: 5px;
+      }
+
+      /* ---------------- FOOTER ---------------- */
+      .footer {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 40px;
+        padding-bottom: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- ============ HEADER WITH COOKIE IMAGES ============ -->
+    <div class="header">
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/1747/1747722.png"
+        class="cookie-left"
+      />
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/1747/1747722.png"
+        class="cookie-right"
+      />
+
+      <h1>Chocolate Chip Cookies</h1>
+
+      <div class="header-info">
+        <div>YIELD: 24 COOKIES</div>
+        <div>PREP TIME: 20 MINUTES</div>
+        <div>BAKE TIME: 10 MINUTES</div>
+      </div>
+    </div>
+
+    <!-- ============ INGREDIENTS + TOOLS ============ -->
+    <div class="main-section">
+      <!-- INGREDIENTS -->
+      <div class="ingredients">
+        <h2>Ingredients</h2>
+        <ul>
+          <li>360 g All-purpose Flour</li>
+          <li>5 g Baking Soda</li>
+          <li>5 g Salt</li>
+          <li>230 g Unsalted Butter (Softened)</li>
+          <li>200 g Granulated Sugar</li>
+          <li>200 g Light Brown Sugar</li>
+          <li>10 g Vanilla Extract</li>
+          <li>2 Large Eggs</li>
+          <li>350 g Chocolate Chips/Chunks</li>
+        </ul>
+      </div>
+
+      <!-- TOOLS -->
+      <div class="tools">
+        <h2>Tools</h2>
+        <ul>
+          <li>(2) Mixing Bowls</li>
+          <li>Kitchen Scale</li>
+          <li>Spatula</li>
+          <li>Cookie Scoop</li>
+          <li>Hand/Stand Mixer or Spoon</li>
+          <li>(1) Full Size Sheet Pan</li>
+        </ul>
+
+        <div class="tool-images">
+          <img src="https://cdn-icons-png.flaticon.com/512/706/706164.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/2917/2917639.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/3795/3795993.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ DIRECTIONS ============ -->
+    <div class="directions">
+      <h2>Directions</h2>
+
+      <ol>
+        <li>Pre-heat oven to 180°C.</li>
+        <li>
+          In a mixing bowl, combine room-temperature butter, sugars, and vanilla
+          until smooth. Beat in the eggs.
+        </li>
+        <li>
+          Combine flour, baking soda, and salt. Stir into butter mixture until
+          combined.
+        </li>
+        <li>Gradually add flour mixture and mix well.</li>
+        <li>Stir in chocolate chips.</li>
+        <li>Scoop dough onto a sheet pan. Leave space between cookies.</li>
+        <li>Bake 10 minutes until edges are lightly browned.</li>
+        <li>Serve warm. Enjoy!</li>
+      </ol>
+    </div>
+
+    <!-- ============ FOOTER ============ -->
+    <div class="footer">
+      NIST — Office of Weights and Measures<br />
+      February 2023<br />
+      This publication is available free of charge.
+    </div>
+  </body>
+</html>
